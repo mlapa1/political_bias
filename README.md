@@ -5,7 +5,7 @@ In this project we will construct classifiers that attempt to guess the politica
 
 https://www.adfontesmedia.com/
 
-In fact, this chart contains much more information than we need here. We only use it to classify a news source as left- or right-leaning (the horizontal axis of the chart). For example, the chart classifies The New York Times to be slightly left of center and The Wall Street Journal to be slightly right of center.
+In fact, this chart contains much more information than we need here. We only use it to classify a news source as left- or right-leaning (the horizontal axis of the chart). For example, the chart classifies The New York Times as slightly left of center and The Wall Street Journal as slightly right of center.
 
 To train our classifiers we used the free version of News API (newsapi.org) to obtain 100 headlines each from five left-leaning sources and five right-leaning sources (using
 the Media Bias Chart to determine the leanings of each source), for a total of 1000 headlines. It would be nice to have more data but the free version of News API seems to only allow a download of 100 articles from each source on any given day (and the news cycle moves so fast that it would be ideal to update the data each day). The five left-leaning news sources that we used were:

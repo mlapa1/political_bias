@@ -20,10 +20,11 @@ In the file retrieve_headline_data.py we obtained the raw data from these source
 
 biden, say, covid, new, vaccin, trump, us, report, plan, vote, law, gop, infrastructur, call, georgia, border, state, gaetz, bill, hous
 
-In the file train_naive_bayes.py we train a naive Bayes classifier on this data set (following part 1 of Coursera's Natural Language Processing specialization) and check its accuracy on a hold-out test set. In the figure test_set_accuracy.pdf we plot the test set accuracy vs. the size of the training set. Each point in that plot represents the
-average test set accuracy for 20 different values of the random seed used to shuffle the data before dividing it into training and test sets. The error bars show the standard
-deviation of the test set accuracy. We can see that with the largest training set size this classifier achieved an average test set accuracy of 65.7%, which is not bad 
-considering the difficulty of the task, the relatively small size of the data set, and the simplicity of the naive Bayes classifier.
+In the file train_naive_bayes.py we train a naive Bayes classifier on this data set and check its accuracy on a hold-out test set. In the figure test_set_accuracy.pdf we plot 
+the test set accuracy vs. the size of the training set. Each point in that plot represents the average test set accuracy for 20 different values of the random seed used to 
+shuffle the data before dividing it into training and test sets. The error bars show the standard deviation of the test set accuracy. We can see that with the largest training 
+set size this classifier achieved an average test set accuracy of 65.7%, which is not bad considering the difficulty of the task, the relatively small size of the data set, and 
+the simplicity of the naive Bayes classifier.
 
 In the future we hope to apply more sophisticated techniques to this problem, for example adapting the neural network techniques that are used for more advanced sentiment analysis tasks.
 

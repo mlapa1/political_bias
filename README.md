@@ -3,7 +3,7 @@ Can you guess the political leanings of a news source from a headline?
 
 In this project we will construct classifiers that attempt to guess the political leanings of a news source from the text of a headline. Our political setting is the United States of America in the year 2021, and all of our results should be viewed in that context. To determine the political leanings of a news source we rely on the Media Bias Chart from ad fontes media:
 
-https://www.adfontesmedia.com/
+http://www.adfontesmedia.com/
 
 In fact, this chart contains much more information than we need here. We only use it to classify a news source as left- or right-leaning (the horizontal axis of the chart). For example, the chart classifies The New York Times as slightly left of center and The Wall Street Journal as slightly right of center.
 
